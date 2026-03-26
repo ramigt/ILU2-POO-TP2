@@ -11,6 +11,6 @@ public class BoundaryLibererEtal {
 
 	public void libererEtal(String nomVendeur) {
 		//TODO a completer
-	}
+	} control.libererEtal(nomVendeur); 
 
 }
