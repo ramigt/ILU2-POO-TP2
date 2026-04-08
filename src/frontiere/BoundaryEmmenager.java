@@ -12,10 +12,10 @@ public class BoundaryEmmenager {
 	public void emmenager(String nomVisiteur) {
 		if (controlEmmenager.isHabitant(nomVisiteur)) {
 			System.out.println(
-					"Mais vous êtes déjà un habitant du village !");
+					"Mais vous etes deja� un habitant du village !");
 		} else {
 			StringBuilder question = new StringBuilder();
-			question.append("Êtes-vous :\n");
+			question.append("etes-vous :\n");
 			question.append("1 - un druide.\n");
 			question.append("2 - un gaulois.\n");
 			int choixUtilisateur = -1;
@@ -58,7 +58,7 @@ public class BoundaryEmmenager {
 		        effetMax = Clavier.entrerEntier("");
 
 		        if (effetMax < effetMin) {
-		            System.out.println("Attention,vous vous etes trompés de min et max");
+		            System.out.println("Attention,vous vous etes trompes de min et max");
 		        }
 
 		    } while (effetMax < effetMin);
