@@ -1,4 +1,4 @@
-package controleur;
+ package controleur;
 
 import personnages.Gaulois;
 import villagegaulois.Etal;
